@@ -1,14 +1,13 @@
-package com.mc.micro;
+package com.mc.bnmicroservice;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
-import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 
 @SpringBootApplication
-public class MicroApplication {
+public class BnMicroserviceApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroApplication.class, args);
+		SpringApplication.run(BnMicroserviceApplication.class, args);
 	}
 
 }
